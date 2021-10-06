@@ -71,7 +71,7 @@ async def fact(context, *args):
     else:
         await context.send("Oops! idk what to do!")
 
-@bot.command(pass_context=True, aliases=['PLS', 'Pls', 'pLs'])
+@bot.command(pass_context=True, aliases=['PLS', 'Pls', 'pLs', 'pls'])
 async def pls(context, *args):
     '''shows a meme - [meme]'''
     print(args[0])
